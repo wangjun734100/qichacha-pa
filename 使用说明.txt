@@ -1,0 +1,17 @@
+1.运行testFile文件夹下test_requests01.py
+2.windows下：
+cd 目录
+python test_requests01.py
+2.运行之前在桌面创建text.xls文件
+3.安装模块：
+pip install xlrd
+pip install xlutils
+pip install BeautifulSoup
+备注：重新运行可以把test.txt删除
+4.因为改网站有反爬虫，一旦运行不理，换ip地址，地址在ip.txt文件
+如：            proxies = {'http':'125.116.199.145:39187',
+
+                       }
+                改成   proxies = {'http':'125.111.119.208:31248',
+
+                       }
